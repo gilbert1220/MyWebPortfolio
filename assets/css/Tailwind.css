@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img1{
+    background: url("../My Portfolio/img/img1.jpg");
+    height: 50px;
+    width: 50px;
+}

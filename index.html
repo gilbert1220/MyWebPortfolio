@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<div class="fixed w-full">
+    <div class="h-[8rem] lg:hidden flex justify-between mx-[3rem] p-5">
+        <div class=""><div class="nav-logo h-[5rem] w-[9rem]"></div></div>
+        <div class="flex flex-col w-[10rem] -mr-[5rem]">
+            <div class="" onclick="dropdown()">
+                <div>
+                    <span class="menu" id="arrow"></span>
+                </div>
+            </div>
+            <div class="text-white text-[2rem]" id="submenu">
+                <a href="#home"><div>Home</div></a>
+                <a href="#about"><div>About</div></a>
+                <a href="#skills"><div>Skills</div></a>
+                <a href="#contact"><div>Contact</div></a>
+            </div>
+        </div>
+    </div>
+    <nav class="hidden lg:flex justify-between items-center h-[4rem]">
+        <div class="ml-[7rem]"><div class="nav-logo h-[2rem] w-[6rem]"></div></div>
+        <div class="flex flex-row space-x-[5rem] mr-[7rem] text-white">
+            <a class="hover:bg-[#F11A7B] p-2 rounded" href="#home"><div>Home</div></a>
+            <a class="hover:bg-[#F11A7B] p-2 rounded" href="#about"><div>About</div></a>
+            <a class="hover:bg-[#F11A7B] p-2 rounded" href="#skills"><div>Skills</div></a>
+            <a class="hover:bg-[#F11A7B] p-2 rounded" href="#contact"><div>Contact Me</div></a>                
+        </div>
+    </nav>
+</div>
+<body>
+    <section id="home" class="bg-black flex items-center h-[75vh] lg:h-[100vh] sec-1 show-animate">
+        <div class="pt-[4rem] w-full animate">
+            <div class="lg:flex lg:items-center lg:justify-between mx-[1rem] lg:mx-[8rem]">
+                <div class="lg:ml-[10rem] flex justify-center lg:block">
+                    <div class="my-img rounded-full h-[40rem] w-[40rem] lg:h-[20rem] lg:w-[20rem] "></div>
+                </div>
+                <div class="lg:mr-[10rem] text-white flex flex-col items-center lg:block">
+                    <div class="text-[4rem] lg:text-3xl">CHRISTIAN GILBERT SALAS</div>
+                    <div class="text-xl text-[#F11A7B]">Front-end Web Developer</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="h-[100vh] bg-black text-white sec-2 sec-5">
+        <!-- <div class="text-3xl text-center p-[1rem]">About</div> -->
+        <div class="lg:flex flex-row lg:justify-between lg:mx-[15rem] items-center pt-[10rem] lg:pt-[5rem]">
+            <div class="eff w-auto lg:w-[30rem]">
+                <p class="text-[4rem] lg:text-xl lg:text-justify">Hi! CHRISTIAN GILBERT SALAS here <i class="wave h-[2rem] w-[2rem]"></i></p>
+                <p class="text-[3rem] lg:text-sm text-justify pt-[1rem]">I am from Buhi, Camarines Sur, Philippines. I am a graduate
+                     of a Bachelor'sof Science in Computer Science and am pursuing
+                      my career as a Front-end Web Developer.</p>
+                <p class="text-[3rem] lg:text-sm text-justify pt-[1rem]">I am a dedicated person who is pursuing my career as a 
+                    front-end Web Developer. I love creating and developing
+                     UI/UX designs and passionate in every task that is
+                      given to me. As a fresh graduate, I don't have enough 
+                      experience in web development; the only experience I 
+                      have is when I take my OJT at Intelliseven Technology 
+                      Solutions Inc. in Quezon City. I'm still learning to 
+                      develop my skills to be a good web developer.</p>
+            </div>
+            <div class="pt-2 lg:pt-0 text-center animate"><i class="rounded-lg img-me h-[50rem] w-[30rem] lg:h-[30rem] lg:w-[20rem]"></i></div>
+        </div>
+    </section>
+    <section id="skills" class="bg-black h-[130vh] text-white sec-3">
+        <div class="text-3xl text-center p-[1rem]"></div>
+        <div class="flex justify-center img pt-[10rem] lg:pt-0">
+            <div class="lg:grid grid-cols-3 lg:gap-[6rem] group img2 space-y-[5rem] lg:space-y-0 lg:my-[5rem]">
+                <div class="flex flex-col items-center animate">
+                    <div class="h-auto w-[60rem] lg:h-[16rem] lg:w-[10rem] border p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-300 
+                    cursor-pointer rounded-lg flex justify-center items-center flex-col">
+                        <div class="html-logo h-[10rem] w-[10rem] lg:h-[5rem] lg:w-[5rem]"></div>
+                        <div class="text-3xl lg:text-xs text-justify">I have 4 years of experience using HTML; 
+                        I started back in 2019 in my 1st year of college. 
+                        I have strong knowledge when it comes to HTML.</div>
+                    </div>
+                    <!-- <div>HTML</div> -->
+                </div>
+                <div class="flex flex-col items-center animate" style="--i:1;">
+                    <div class="h-auto w-[60rem] lg:h-[16rem] lg:w-[10rem] border p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-300 
+                    cursor-pointer rounded-lg flex justify-center items-center flex-col">
+                        <i class="css-logo h-[10rem] w-[10rem] lg:h-[5rem] lg:w-[5rem]"></i>
+                        <div class="text-3xl lg:text-xs text-justify">I have 4 years of experience using CSS to 
+                        design pages. I have strong knowledge when it comes to CSS.</div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center animate" style="--i:2;">
+                    <div class="h-auto w-[60rem] lg:h-[16rem] lg:w-[10rem] border p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-300 
+                    cursor-pointer rounded-lg flex justify-center items-center flex-col">
+                        <i class="nuxt-logo h-[10rem] w-[10rem] lg:h-[5rem] lg:w-[5rem]"></i>
+                        <div class="text-3xl lg:text-xs text-justify">I started using Nuxt these past few months in 
+                        my OJT; we use this framework to create a Web Application. I have some basic 
+                        knowledge when it comes to NuxtJS.</div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center animate" style="--i:3;">
+                    <div class="h-auto w-[60rem] lg:h-[16rem] lg:w-[10rem] border p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-300 
+                    cursor-pointer rounded-lg flex justify-center items-center flex-col">
+                        <i class="php-mysql h-[12rem] w-[16rem] lg:h-[6rem] lg:w-[8rem]"></i>
+                        <div class="text-3xl lg:text-xs text-justify">I have some basic knowledge of PHP and MySQL, 
+                            and I've created simple projects like CRUD in PHP</div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center animate" style="--i:4;">
+                    <div class="h-auto w-[60rem] lg:h-[16rem] lg:w-[10rem] border p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-300 
+                    cursor-pointer rounded-lg flex justify-center items-center flex-col">
+                        <i class="tailwind h-[12rem] w-[16rem] lg:h-[6rem] lg:w-[8rem]"></i>
+                        <div class="text-3xl lg:text-xs text-justify">I started using the Tailwind framework for 
+                        styling this year, and I like it more because it helps me a lot to design 
+                        every page easily.</div>
+                    </div>
+                </div>
+                <div class="flex flex-col items-center animate" style="--i:4;">
+                    <div class="h-auto w-[60rem] lg:h-[16rem] lg:w-[10rem] border p-5 group-hover:blur-sm hover:!blur-none group-hover:scale-[0.85] hover:!scale-100 duration-300 
+                    cursor-pointer rounded-lg flex justify-center items-center flex-col">
+                        <i class="vue h-[12rem] w-[16rem] lg:h-[6rem] lg:w-[8rem]"></i>
+                        <div class="text-3xl lg:text-xs text-justify">I started using VueJS these past few months, 
+                        and I have some basic experience using Vue in my OJT that we use to create 
+                        some simple CRUD systems.</div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+    <section id="contact" class="h-auto bg-black text-white">
+        <div class="animate text-3xl text-center p-[1rem]">Contact Me</div>
+        <div class="text-xs text-center">If you're interested, you can contact me on my social media. Thanks!</div>
+        <div class="flex h-full items-center justify-center py-[3rem] space-x-[3rem]">
+            <a href="https://www.facebook.com/gilbeeeerrrrtttt">
+                <div><i class="fb-logo"></i></div>
+            </a>
+            <a href="mailto:christiangilbertsalas9@gmail.com">
+                <div><i class="gmail-logo"></i></div>
+            </a>
+            <a href="https://github.com/gilbert1220">
+                <div><i class="git-logo bg-white rounded-full"></i></div>
+            </a>
+            <div><i class="insta-logo"></i></div>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

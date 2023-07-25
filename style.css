@@ -1,0 +1,150 @@
+
+/* .nav-link[aria-current="page"]{
+    text-decoration: underline #F6F4EB 0.15rem;
+    text-underline-offset: 0.5rem;
+} */
+
+/* .nav-link{
+    @apply hover:text-green-500 tracking-[1px]
+}
+
+.nav-link::after{
+    @apply content-[''] bg-pink-500 h-[3px] w-[0%]
+    left-0 -bottom-[5px] rounded-xl absolute duration-300
+} */
+
+.nav-logo{
+    content: url('./img/nav-logo1.png');
+}
+
+.my-img{
+    content: url('./img/my-img1.jpg');
+}
+
+/* .img4{
+    background-image: url('./img/img4.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} */
+
+.html-logo{
+    content: url('./img/html1.png');
+    /* height: 5rem;
+    width: 5rem; */
+}
+
+.css-logo{
+    content: url('./img/css1.png');
+    /* height: 5rem;
+    width: 5rem; */
+}
+
+.nuxt-logo{
+    content: url('./img/nuxt-removebg-preview.png');
+    /* height: 5rem;
+    width: 5rem; */
+}
+
+.php-mysql{
+    content: url('./img/download-removebg-preview-removebg-preview.png');
+    /* height: 6rem;
+    width: 8rem; */
+}
+
+.tailwind{
+    content: url('./img/Tailwind_CSS_Logo.svg.png');
+    /* height: 6rem;
+    width: 8rem; */
+}
+
+.vue{
+    content: url('./img/vue-removebg-preview.png');
+    /* height: 6rem;
+    width: 8rem; */
+}
+
+.fb-logo{
+    content: url('./img/fb-logo-removebg-preview.png');
+    height: 2rem;
+    width: 3rem;
+}
+
+.gmail-logo{
+    content: url('./img/gmail-logo-removebg-preview.png');
+    height: 2rem;
+    width: 3rem;
+}
+
+.git-logo{
+    content: url('./img/git-logo-removebg-preview.png');
+    height: 2rem;
+    width: 3rem;
+}
+
+.insta-logo{
+    content: url('./img/instagram-logo-removebg-preview.png');
+    height: 2rem;
+    width: 3rem;
+}
+
+.img-me{
+    content: url('./img/me.JPG');
+    /* height: 30rem;
+    width: 20rem; */
+}
+
+section{
+    overflow-x: hidden;
+}
+
+section .animate{
+    transition: 1s;
+}
+
+section .eff{
+    transition: 1s;
+}
+
+.sec-1 .animate{
+    transform: translateX(-100%);
+}
+
+.sec-1.show-animate .animate{
+    transform: translateX(0);
+}
+
+.sec-2 .animate{
+    transform: translateX(100%);
+}
+
+.sec-2.show-animate .animate{
+    transform: translateX(0);
+}
+
+.sec-5 .eff{
+    transform: translateX(-100%);
+}
+
+.sec-5.show-animate .eff{
+    transform: translateX(0);
+}
+
+.sec-3 .img .img2 .animate{
+    transform: translateX(-300%);
+    transform: calc(.2s);
+}
+
+.sec-3.show-animate .img .img2 .animate{
+    transform: translateX(0);
+}
+
+.wave{
+    content: url('./assets/icons/wave.svg');
+}
+
+.menu{
+    content: url('./assets/icons/menu.svg');
+    height: 5rem;
+    width: 5rem;
+}
